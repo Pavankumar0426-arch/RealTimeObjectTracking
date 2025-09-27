@@ -151,27 +151,5 @@ Python 3.8+
 
 ## 👤 Author
 
-<<<<<<< HEAD
 ### M. PAVAN KUMAR
 Python & Computer Vision Enthusiast
-=======
-lua
-Copy code
-ultralytics
-opencv-python
-opencv-python-headless
-numpy
-torch
-torchvision
-deep-sort-realtime
-🔗 References
-YOLOv8 Documentation
-
-DeepSORT Realtime Tracker
-
-COCO Dataset Class IDs
-
-👤 Author
-M. PAVAN KUMAR
-Python & Computer Vision Enthusiast
->>>>>>> 1bba191 (Update README.md with professional portfolio-ready content)
