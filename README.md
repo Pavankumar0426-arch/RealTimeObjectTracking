@@ -23,8 +23,8 @@ It also implements **bidirectional people counting**, which counts people crossi
 ## 📸 Screenshots
 
 **Detection & Tracking in Action:**  
-![Screenshot 1](images/screenshot1.png)  
-![Screenshot 2](images/screenshot2.png)  
+![Screenshot 1](data/screenshot1.png)  
+![Screenshot 2](data/screenshot2.png)  
 
 **People Count Graph (Optional Example):**  
 ![People Count Graph](images/people_count_graph.png)  
