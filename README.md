@@ -16,7 +16,7 @@ It also implements **bidirectional people counting**, which counts people crossi
 ---
 
 ## 📁 Folder Structure
-
+```
 RealTimeObjectTracking/
 ├── src/
 │ └── multi_track_count_bidirectional.py
@@ -26,9 +26,8 @@ RealTimeObjectTracking/
 │ └── people_count_bidirectional.mp4
 ├── requirements.txt
 └── README.md
+```
 
-
----
 
 ## ⚙️ Installation
 
