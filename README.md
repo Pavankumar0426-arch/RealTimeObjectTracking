@@ -2,21 +2,17 @@
 
 ## 📄 Abstract
 This project demonstrates a **real-time object detection and multi-object tracking system** using **YOLOv8** and **DeepSORT**.  
-<<<<<<< HEAD
 It focuses on **people counting in real-time**, tracking individuals across a video feed or webcam and counting them as they cross a virtual line.  
 
 Applications include:  
 - Smart surveillance systems  
 - Crowd monitoring  
 - People flow analytics in public places  
-=======
+
 It also implements **bidirectional people counting**, which counts people crossing a virtual line in **both directions**.
->>>>>>> 1bba191 (Update README.md with professional portfolio-ready content)
 
 ---
-
 ## ✨ Features
-<<<<<<< HEAD
 - ✅ Real-time object detection with **YOLOv8**  
 - ✅ Multi-object tracking with **DeepSORT** and unique IDs  
 - ✅ Bidirectional people counting (up/down crossings)  
@@ -24,7 +20,6 @@ It also implements **bidirectional people counting**, which counts people crossi
 - ✅ Save annotated video for analysis in `outputs/`  
 
 ---
-
 ## 📸 Screenshots
 
 **Detection & Tracking in Action:**  
@@ -34,26 +29,9 @@ It also implements **bidirectional people counting**, which counts people crossi
 **People Count Graph (Optional Example):**  
 ![People Count Graph](images/people_count_graph.png)  
 
-> 💡 You can generate your own graphs of counts over time using matplotlib or OpenCV.
-
 ---
-
 ## 📁 Folder Structure
-
-
 ```
-=======
-- ✅ Real-time object detection using YOLOv8 (pretrained COCO model).  
-- ✅ Multi-object tracking with **unique IDs** using DeepSORT.  
-- ✅ **Bidirectional people counting** (upward and downward crossings).  
-- ✅ Live video display with bounding boxes, IDs, and counts.  
-- ✅ Annotated video saved to `outputs/` for later review.  
-
----
-
-## 📁 Folder Structure
-
->>>>>>> 1bba191 (Update README.md with professional portfolio-ready content)
 RealTimeObjectTracking/
 ├── src/
 │ └── multi_track_count_bidirectional.py # Main script
@@ -66,17 +44,6 @@ RealTimeObjectTracking/
 └── README.md
 ```
 
-
-=======
-│ └── people_count_bidirectional.mp4 # Annotated output video
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
-yaml
-
----
-
->>>>>>> 1bba191 (Update README.md with professional portfolio-ready content)
 ## ⚙️ Installation
 
 1. **Create and activate a virtual environment**:
