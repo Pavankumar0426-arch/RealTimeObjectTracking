@@ -2,16 +2,21 @@
 
 ## 📄 Abstract
 This project demonstrates a **real-time object detection and multi-object tracking system** using **YOLOv8** and **DeepSORT**.  
+<<<<<<< HEAD
 It focuses on **people counting in real-time**, tracking individuals across a video feed or webcam and counting them as they cross a virtual line.  
 
 Applications include:  
 - Smart surveillance systems  
 - Crowd monitoring  
 - People flow analytics in public places  
+=======
+It also implements **bidirectional people counting**, which counts people crossing a virtual line in **both directions**.
+>>>>>>> 1bba191 (Update README.md with professional portfolio-ready content)
 
 ---
 
 ## ✨ Features
+<<<<<<< HEAD
 - ✅ Real-time object detection with **YOLOv8**  
 - ✅ Multi-object tracking with **DeepSORT** and unique IDs  
 - ✅ Bidirectional people counting (up/down crossings)  
@@ -37,18 +42,41 @@ Applications include:
 
 
 ```
+=======
+- ✅ Real-time object detection using YOLOv8 (pretrained COCO model).  
+- ✅ Multi-object tracking with **unique IDs** using DeepSORT.  
+- ✅ **Bidirectional people counting** (upward and downward crossings).  
+- ✅ Live video display with bounding boxes, IDs, and counts.  
+- ✅ Annotated video saved to `outputs/` for later review.  
+
+---
+
+## 📁 Folder Structure
+
+>>>>>>> 1bba191 (Update README.md with professional portfolio-ready content)
 RealTimeObjectTracking/
 ├── src/
-│ └── multi_track_count_bidirectional.py
+│ └── multi_track_count_bidirectional.py # Main script
 ├── models/
-│ └── yolov8n.pt
+│ └── yolov8n.pt # YOLO model (auto-download works)
 ├── outputs/
+<<<<<<< HEAD
 │ └── people_count_bidirectional.mp4
 ├── requirements.txt
 └── README.md
 ```
 
 
+=======
+│ └── people_count_bidirectional.mp4 # Annotated output video
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
+
+yaml
+
+---
+
+>>>>>>> 1bba191 (Update README.md with professional portfolio-ready content)
 ## ⚙️ Installation
 
 1. **Create and activate a virtual environment**:
@@ -56,6 +84,7 @@ RealTimeObjectTracking/
 python -m venv objtrack_env
 objtrack_env\Scripts\activate       # Windows
 # source objtrack_env/bin/activate  # Linux/macOS
+
 ```
 2. **Install dependencies**:
 ```
@@ -64,6 +93,13 @@ pip install -r requirements.txt
 
 3. **▶️ Usage**
 ```
+
+
+Install dependencies:
+pip install -r requirements.txt
+
+▶️ Usage
+
 Navigate to the src/ folder:
 cd src
 
@@ -91,7 +127,12 @@ Add trajectory lines for each tracked person.
 2. Webcam
 3. GPU recommended for faster YOLOv8 inference
 
+<<<<<<< HEAD
 ## **Dependencies**
+=======
+🛠 Requirements
+Python 3.8+
+>>>>>>> 1bba191 (Update README.md with professional portfolio-ready content)
 
 1. lua
 2. Copy code
@@ -110,5 +151,27 @@ Add trajectory lines for each tracked person.
 
 ## 👤 Author
 
+<<<<<<< HEAD
 ### M. PAVAN KUMAR
 Python & Computer Vision Enthusiast
+=======
+lua
+Copy code
+ultralytics
+opencv-python
+opencv-python-headless
+numpy
+torch
+torchvision
+deep-sort-realtime
+🔗 References
+YOLOv8 Documentation
+
+DeepSORT Realtime Tracker
+
+COCO Dataset Class IDs
+
+👤 Author
+M. PAVAN KUMAR
+Python & Computer Vision Enthusiast
+>>>>>>> 1bba191 (Update README.md with professional portfolio-ready content)
