@@ -1,21 +1,41 @@
 # 🚀 Real-Time Object Detection & Multi-Object Tracking with People Counting
 
-## Overview
+## 📄 Abstract
 This project demonstrates a **real-time object detection and multi-object tracking system** using **YOLOv8** and **DeepSORT**.  
-It also implements **bidirectional people counting**, which counts people crossing a virtual line in **both directions**.
+It focuses on **people counting in real-time**, tracking individuals across a video feed or webcam and counting them as they cross a virtual line.  
+
+Applications include:  
+- Smart surveillance systems  
+- Crowd monitoring  
+- People flow analytics in public places  
 
 ---
 
 ## ✨ Features
-- ✅ Real-time object detection using YOLOv8 (pretrained COCO model).  
-- ✅ Multi-object tracking with **unique IDs** using DeepSORT.  
-- ✅ **Bidirectional people counting** (upward and downward crossings).  
-- ✅ Live video display with bounding boxes, IDs, and counts.  
-- ✅ Annotated video saved to `outputs/` for later review.  
+- ✅ Real-time object detection with **YOLOv8**  
+- ✅ Multi-object tracking with **DeepSORT** and unique IDs  
+- ✅ Bidirectional people counting (up/down crossings)  
+- ✅ Live annotated video display with bounding boxes, IDs, and counts  
+- ✅ Save annotated video for analysis in `outputs/`  
+
+---
+
+## 📸 Screenshots
+
+**Detection & Tracking in Action:**  
+![Screenshot 1](images/screenshot1.png)  
+![Screenshot 2](images/screenshot2.png)  
+
+**People Count Graph (Optional Example):**  
+![People Count Graph](images/people_count_graph.png)  
+
+> 💡 You can generate your own graphs of counts over time using matplotlib or OpenCV.
 
 ---
 
 ## 📁 Folder Structure
+
+
 ```
 RealTimeObjectTracking/
 ├── src/
