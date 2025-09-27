@@ -2,17 +2,11 @@
 ---
 ## 📄 Abstract
 This project implements a **Real-Time Object Detection and Multi-Object Tracking system** with **Bidirectional People Counting** using **YOLOv8** and **DeepSORT**. The system accurately detects people in live video streams, assigns unique IDs for multi-person tracking, and counts people crossing a virtual line in both directions.  
-
 The system provides real-time visualization, stores annotated videos, and generates statistical graphs of people count over time.  
-
 **Applications:** Smart surveillance, crowd management, retail analytics, public space monitoring, and research.  
-
 ---
-
 ## **Description**
-
 The **Real-Time Object Detection & Multi-Object Tracking with People Counting** system combines:  
-
 - **YOLOv8:** High-speed, accurate object detection.  
 - **DeepSORT:** Robust multi-object tracking with unique IDs.  
 - **Bidirectional Counting:** Counts people moving upward and downward across a virtual line.  
@@ -45,33 +39,24 @@ RealTimeObjectTracking/
 └── README.md
 ```
 ---
-
 ## ⚙️ Installation
-
 1. **Create and activate a virtual environment**:
 ```
 python -m venv objtrack_env
 objtrack_env\Scripts\activate       # Windows
 # source objtrack_env/bin/activate  # Linux/macOS
-
 ```
 2. **Install dependencies**:
 ```
 pip install -r requirements.txt
 ```
-
 3. **▶️ Usage**
 ```
-
-
 Install dependencies:
 pip install -r requirements.txt
 
-▶️ Usage
-
 Navigate to the src/ folder:
 cd src
-
 Run the main script:
 python multi_track_count_bidirectional.py
 
@@ -83,7 +68,6 @@ Counts will display live on the video.
 Press q to stop the webcam.
 
 The annotated video will be saved in:
-
 outputs/people_count_bidirectional.mp4
 🔧 Optional Customizations
 Change the counting line position in the script (line_position).
