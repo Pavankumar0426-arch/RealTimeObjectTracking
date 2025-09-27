@@ -27,7 +27,6 @@ RealTimeObjectTracking/
 ├── requirements.txt
 └── README.md
 
-yaml
 
 ---
 
