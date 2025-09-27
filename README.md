@@ -44,7 +44,7 @@ objtrack_env\Scripts\activate       # Windows
 pip install -r requirements.txt
 ```
 
-4. **▶️ Usage**
+3. **▶️ Usage**
 ```
 Navigate to the src/ folder:
 cd src
