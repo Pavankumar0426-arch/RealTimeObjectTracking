@@ -1,5 +1,5 @@
 # 🚀 Real-Time Object Detection & Multi-Object Tracking with People Counting
-
+---
 ## 📄 Abstract
 This project implements a **Real-Time Object Detection and Multi-Object Tracking system** with **Bidirectional People Counting** using **YOLOv8** and **DeepSORT**. The system accurately detects people in live video streams, assigns unique IDs for multi-person tracking, and counts people crossing a virtual line in both directions.  
 
@@ -44,6 +44,7 @@ RealTimeObjectTracking/
 ├── requirements.txt
 └── README.md
 ```
+---
 
 ## ⚙️ Installation
 
