@@ -3,7 +3,7 @@
 ## 📄 Abstract
 This project implements a **Real-Time Object Detection and Multi-Object Tracking system** with **Bidirectional People Counting** using **YOLOv8** and **DeepSORT**. The system accurately detects people in live video streams, assigns unique IDs for multi-person tracking, and counts people crossing a virtual line in both directions. The system provides real-time visualization, stores annotated videos, and generates statistical graphs of people count over time.  
 
-**Applications:**: 
+**Applications:**
 Smart surveillance, crowd management, retail analytics, public space monitoring, and research.  
 
 ---
