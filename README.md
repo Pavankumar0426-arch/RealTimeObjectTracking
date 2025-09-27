@@ -4,11 +4,11 @@
 This project implements a Real-Time Object Detection and Multi-Object Tracking system with Bidirectional People Counting using YOLOv8 and DeepSORT. The system is designed to accurately detect people in live video streams, assign unique IDs to track multiple objects simultaneously, and count the number of people crossing a virtual line in both directions.
 
 The main objectives of this project are:
-1. Accurate Detection: Utilize YOLOv8’s fast and precise detection capability to identify people in real time.
-2. Robust Tracking: Track multiple people simultaneously with DeepSORT, maintaining unique IDs even in cases of occlusion or crossing paths.
-3. Bidirectional Counting: Count people moving both upward and downward across a virtual line, providing insights into traffic flow.
-4. Visualization: Display bounding boxes, track IDs, and real-time counts on live video. Additionally, store annotated videos for offline analysis.
-5. Analytics: Generate people count graphs over time to analyze patterns and trends.
+1. **Accurate Detection:** Utilize YOLOv8’s fast and precise detection capability to identify people in real time.
+2. **Robust Tracking:** Track multiple people simultaneously with DeepSORT, maintaining unique IDs even in cases of occlusion or crossing paths.
+3. **Bidirectional Counting:** Count people moving both upward and downward across a virtual line, providing insights into traffic flow.
+4. **Visualization:** Display bounding boxes, track IDs, and real-time counts on live video. Additionally, store annotated videos for offline analysis.
+5. **Analytics:** Generate people count graphs over time to analyze patterns and trends.
 
 This project can be applied in smart surveillance, crowd management, retail analytics, and public space monitoring, providing both real-time alerts and historical insights into human movement patterns.
 
