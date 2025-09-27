@@ -94,13 +94,7 @@ Add trajectory lines for each tracked person.
 2. Webcam
 3. GPU recommended for faster YOLOv8 inference
 
-<<<<<<< HEAD
 ## **Dependencies**
-=======
-🛠 Requirements
-Python 3.8+
->>>>>>> 1bba191 (Update README.md with professional portfolio-ready content)
-
 1. lua
 2. Copy code
 3. ultralytics
