@@ -19,13 +19,13 @@ It also implements **bidirectional people counting**, which counts people crossi
 
 RealTimeObjectTracking/
 ├── src/
-│ └── multi_track_count_bidirectional.py # Main script
+│ └── multi_track_count_bidirectional.py
 ├── models/
-│ └── yolov8n.pt # YOLO model (auto-download works)
+│ └── yolov8n.pt
 ├── outputs/
-│ └── people_count_bidirectional.mp4 # Annotated output video
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+│ └── people_count_bidirectional.mp4
+├── requirements.txt
+└── README.md
 
 yaml
 
