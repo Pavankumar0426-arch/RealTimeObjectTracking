@@ -35,7 +35,6 @@ Copy code
 
 1. **Create and activate a virtual environment**:
 
-```bash
 python -m venv objtrack_env
 objtrack_env\Scripts\activate       # Windows
 # source objtrack_env/bin/activate  # Linux/macOS
@@ -101,6 +100,6 @@ DeepSORT Realtime Tracker
 
 COCO Dataset Class IDs
 
-Author
+###Author
 M. Pavan Kumar
 B.Tech Student | Python & Computer Vision Enthusiast.
